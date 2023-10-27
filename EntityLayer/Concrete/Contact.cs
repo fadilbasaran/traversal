@@ -1,0 +1,26 @@
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+
+namespace EntityLayer.Concrete
+{
+	public class Contact
+	{
+        [Key]
+        public int ConatactID { get; set; }
+
+		public string  Descrption { get; set; }
+
+		public string Mail { get; set; }
+
+        public string Adress { get; set; }
+
+		public string Phone { get; set; }
+
+		public string MapLocation { get; set; }
+
+		public bool Status { get; set; }
+
+
+	}
+}
+
